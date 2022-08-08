@@ -349,6 +349,30 @@ body {
      padding: 8px;
 }
 
+@media(max-width:540px){
+    .table-sm-none{
+        display: none;
+    }
+}
+
+@media(max-width:720px){
+    .table-md-none{
+        display: none;
+    }
+}
+
+@media(max-width:960px){
+    .table-lg-none{
+        display: none;
+    }
+}
+
+@media(max-width:1140px){
+    .table-xl-none{
+        display: none;
+    }
+}
+
 /* Paginação */
 .content-pagination{
     margin: 15px 0;
@@ -366,8 +390,9 @@ body {
 .pagination a{
     color: var(--fourth-bg-color);
     float: left;
-    padding: 8px 16px;
+    padding: 8px 10px;
     text-decoration: none;
+    transition: background-color .3s;
 }
 .pagination a.active{
     background-color: var(--second-bg-color);
@@ -459,3 +484,4 @@ body {
     color: var(--info-color);
     transition:all 0.3s ease ;
 }
+
