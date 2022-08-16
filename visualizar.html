@@ -76,9 +76,9 @@
 
       <a href="listar.html" class="sidebar-nav"><i class="icon fa-solid fa-users"></i><span>Listar</span></a>
 
-      <a href="formulario.html" class="sidebar-nav active"><i class="icon fa-solid fa-edit"></i><span>Formulário</span></a>
-
-      <a href="visualizar.html" class="sidebar-nav"><i class="icon fa-solid fa-eye"></i><span>Visualizar</span></a>
+      <a href="formulario.html" class="sidebar-nav"><i class="icon fa-solid fa-edit"></i><span>Formulário</span></a>
+      
+      <a href="visualizar.html" class="sidebar-nav active"><i class="icon fa-solid fa-eye"></i><span>Visualizar</span></a>
 
       <a href="login.html" class="sidebar-nav"><i class="icon fa-solid fa-arrow-right-from-bracket"></i><span>Sair</span></a>
     </div>
@@ -86,55 +86,22 @@
    <div class="wrapper">
     <div class="row">
         <div class="top-content-adm">
-            <span class="title-content">Cadastrar</span>
+            <span class="title-content">Visualizar</span>
             <div class="top-content-adm-right">
                 <button type="button" class="btn-info">Listar</button>
             </div>
         </div>
 
         <div class="content-adm">
-            <form class="form-adm">
-                <div class="row-input">
-                    <div class="column">
-                        <label class="title-input">Nome</label>
-                        <input type="text" name="name" id="name" class="input-adm" placeholder="Nome complento" />
-                    </div>
+            <div class="view-det-adm">
+              <span class="view-adm-title">Nome:</span>
+              <span class="view-adm-info">João</span>
+            </div>
 
-                    <div class="column">
-                        <label class="title-input">E-mail</label>
-                        <input type="email" name="email" id="email" class="input-adm" placeholder="Melhor e-mail" />
-                    </div>
-                </div>
-
-                <div class="row-input">
-                    <div class="column">
-                        <label class="title-input">Campo 3</label>
-                        <input type="text" name="campo_3" id="campo_3" class="input-adm" placeholder="Campo 3" />
-                    </div>
-
-                    <div class="column">
-                        <label class="title-input">Campo 4</label>
-                        <input type="text" name="campo_4" id="campo_4" class="input-adm" placeholder="Campo 4" />
-                    </div>
-                </div>
-
-                <div class="row-input">
-                    <div class="column">
-                        <label class="title-input">Campo 5</label>
-                        <input type="text" name="campo_5" id="campo_5" class="input-adm" placeholder="Campo 5" />
-                    </div>
-                </div>
-
-                <div class="row-input">
-                    <div class="column">
-                        <label class="title-input">Descrição</label>
-                        <textarea id="descricao" class="input-adm" placeholder="Descrição" rows="3"></textarea>
-                    </div>
-                </div>
-
-                <button type="button" class="btn-success">Cadastrar</button>
-
-            </form>
+            <div class="view-det-adm">
+              <span class="view-adm-title">E-mail:</span>
+              <span class="view-adm-info">joao@oliveirasw.com</span>
+            </div>
         </div>
 
     </div>
