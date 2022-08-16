@@ -89,15 +89,13 @@
        </div>
       <table class="table-list">
         <thead class="list-head">
-          <tr>
-            <th class="list-head-content">ID</th>
-            <th class="list-head-content">Nome</th>
-            <th class="list-head-content table-sm-none">E-mail</th>
-            <td class="list-body-content table-sm-none">Coluna 4</td>
-            <td class="list-body-content table-md-none">Coluna 5</td>
-            <td class="list-body-content table-lg-none">Coluna 6</td>
-            <th class="list-head-content">Ações</th>
-          </tr>
+          <th class="list-head-content">ID</th>
+                            <th class="list-head-content">Nome</th>
+                            <th class="list-head-content table-sm-none">E-mail</th>
+                            <th class="list-head-content table-sm-none">Coluna 4</th>
+                            <th class="list-head-content table-md-none">Coluna 5</th>
+                            <th class="list-head-content table-lg-none">Coluna 6</th>
+                            <th class="list-head-content">Ações</th>
         </thead>
         <tbody class="list-body">
           <tr>
@@ -108,9 +106,18 @@
             <td class="list-body-content table-md-none">Coluna 5</td>
             <td class="list-body-content table-lg-none">Coluna 6</td>
             <td class="list-body-content">
-            <button type="button" class="btn-primary">Visualizar</button>
+            <!-- <button type="button" class="btn-primary">Visualizar</button>
               <button type="button" class="btn-warning">Editar</button>
-              <button type="button" class="btn-danger">Apagar</button></td>
+              <button type="button" class="btn-danger">Apagar</button> -->
+              <div class="dropdown-action">
+                <button onclick="actionDropdown(1)" class="dropdown-btn-action">Ações</button>
+                <div id="actionDropdown1" class="dropdown-action-item">
+                  <a href="#">Visualizar</a>
+                  <a href="#">Editar</a>
+                  <a href="#">Apagar</a>
+                </div>
+              </div>
+            </td>
           </tr>
 
           <tr>
@@ -121,9 +128,17 @@
             <td class="list-body-content table-md-none">Coluna 5</td>
             <td class="list-body-content table-lg-none">Coluna 6</td>
             <td class="list-body-content">
-              <button type="button" class="btn-primary">Visualizar</button>
+              <div class="dropdown-action">
+                <button onclick="actionDropdown(2)" class="dropdown-btn-action">Ações</button>
+                <div id="actionDropdown2" class="dropdown-action-item">
+                  <a href="#">Visualizar</a>
+                  <a href="#">Editar</a>
+                  <a href="#">Apagar</a>
+                </div>
+              </div>
+              <!-- <button type="button" class="btn-primary">Visualizar</button>
               <button type="button" class="btn-warning">Editar</button>
-              <button type="button" class="btn-danger">Apagar</button></td>
+              <button type="button" class="btn-danger">Apagar</button></td> -->
               </tr>
 
               <tr>
@@ -134,9 +149,17 @@
                 <td class="list-body-content table-md-none">Coluna 5</td>
                 <td class="list-body-content table-lg-none">Coluna 6</td>
                 <td class="list-body-content">
-                  <button type="button" class="btn-primary">Visualizar</button>
+                  <div class="dropdown-action">
+                    <button onclick="actionDropdown(3)" class="dropdown-btn-action">Ações</button>
+                    <div id="actionDropdown3" class="dropdown-action-item">
+                      <a href="#">Visualizar</a>
+                      <a href="#">Editar</a>
+                      <a href="#">Apagar</a>
+                    </div>
+                  </div>
+                  <!-- <button type="button" class="btn-primary">Visualizar</button>
                   <button type="button" class="btn-warning">Editar</button>
-                  <button type="button" class="btn-danger">Apagar</button></td>
+                  <button type="button" class="btn-danger">Apagar</button></td> -->
                   </tr>
 
                   <tr>
@@ -147,9 +170,17 @@
                     <td class="list-body-content table-md-none">Coluna 5</td>
                     <td class="list-body-content table-lg-none">Coluna 6</td>
                     <td class="list-body-content">
-                      <button type="button" class="btn-primary">Visualizar</button>
+                      <div class="dropdown-action">
+                        <button onclick="actionDropdown(4)" class="dropdown-btn-action">Ações</button>
+                        <div id="actionDropdown4" class="dropdown-action-item">
+                          <a href="#">Visualizar</a>
+                          <a href="#">Editar</a>
+                          <a href="#">Apagar</a>
+                        </div>
+                      </div>
+                      <!-- <button type="button" class="btn-primary">Visualizar</button>
                       <button type="button" class="btn-warning">Editar</button>
-                      <button type="button" class="btn-danger">Apagar</button></td>
+                      <button type="button" class="btn-danger">Apagar</button></td> -->
                       </tr>
 
                       <tr>
@@ -160,9 +191,17 @@
                         <td class="list-body-content table-md-none">Coluna 5</td>
                         <td class="list-body-content table-lg-none">Coluna 6</td>
                         <td class="list-body-content">
-                          <button type="button" class="btn-primary">Visualizar</button>
+                          <div class="dropdown-action">
+                            <button onclick="actionDropdown(5)" class="dropdown-btn-action">Ações</button>
+                            <div id="actionDropdown5" class="dropdown-action-item">
+                              <a href="#">Visualizar</a>
+                              <a href="#">Editar</a>
+                              <a href="#">Apagar</a>
+                            </div>
+                          </div>
+                          <!-- <button type="button" class="btn-primary">Visualizar</button>
                           <button type="button" class="btn-warning">Editar</button>
-                          <button type="button" class="btn-danger">Apagar</button></td>
+                          <button type="button" class="btn-danger">Apagar</button></td> -->
                           </tr>
         </tbody>
       </table>
